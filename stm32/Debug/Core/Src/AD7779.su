@@ -1,4 +1,0 @@
-AD7779.c:23:8:AD7779_software_reset	16	static
-AD7779.c:33:8:AD7779_write_register	24	static
-AD7779.c:45:11:AD7779_read_register	24	static
-AD7779.c:58:8:AD7779_init	16	static
