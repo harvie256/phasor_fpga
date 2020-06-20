@@ -12,3 +12,5 @@ The STM32 is to act as a communications controller, and provide supervision for 
 A Q-SPI PSRAM memory is also added to the FPGA to form a circular buffer for samples.  When some trigger condition is meet, this will form the center point of the sample collection window, with the intent that the samples will be uploaded to a server for post analysis.  i.e. effectively a fault recorder.
 
 
+
+![Alt text](https://raw.githubusercontent.com/harvie256/phasor_fpga/master/FirstPrototype.jpg "First PCB prototype")
