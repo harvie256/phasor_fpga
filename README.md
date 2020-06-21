@@ -11,6 +11,12 @@ The STM32 is to act as a communications controller, and provide supervision for 
 
 A Q-SPI PSRAM memory is also added to the FPGA to form a circular buffer for samples.  When some trigger condition is met, this will form the center point of the sample collection window, with the intent that the samples will be uploaded to a server for post analysis.  i.e. effectively a fault recorder.
 
+## Progress
+20 - 6 - 2020
+- All interfaces on PCB tested, all devices communicate correctly and samples from the ADC looking good (see plot in sigrok directory).
+- Ethernet interface (w5500) connects, gets DHCP & DNS lookups correctly.
+- Time for some FPGA dev...
+
 The first PCB prototype, see the pdf for details:
 https://github.com/harvie256/phasor_fpga/blob/master/FPGA_PMU_PCB/fpga_pmu_pcb_board.pdf
 
